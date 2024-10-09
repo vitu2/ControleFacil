@@ -74,16 +74,16 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'nome_do_seu_banco',  # Substitua pelo nome do seu banco de dados
-        'ENFORCE_SCHEMA': False,
-        'CLIENT': {
-            'host': 'mongodb://localhost:27017',  # Endereço do MongoDB
-        }
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'djongo',
+#         'NAME': 'nome_do_seu_banco',  # Substitua pelo nome do seu banco de dados
+#         'ENFORCE_SCHEMA': False,
+#         'CLIENT': {
+#             'host': 'mongodb://localhost:27017',  # Endereço do MongoDB
+#         }
+#     }
+# }
 
 
 
